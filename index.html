@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+   <style>
+       #info {
+           background-image: url('pastry2.jpg');
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center;
+       }
+   </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <a href="" class="navbar-brand">Bakery Palace</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about-us" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="#pastries" class="nav-link">Pastries</a></li>
+                    <li class="nav-item"><a href="#contact-us" class="nav-link">Contact Us</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="bg-light text-light p-5 text-center" id="info">
+        <div class="container">
+            <div class="d-block my-5">
+                <h1 class="mb-5 text-opacity-100" style="z-index: 1000;">Welcome To The Bakery Palace</h1>
+                <p class="h3 my-5">Since we opened our bakery in 2005, we've been dedicated to the principle of top quality bakery.
+                    You'll see it in our handcrafted bakery and breakfast pastries, extravagant cakes and array of holiday treats.
+                    You'll taste the attention we give our organic ingredients.
+                </p>
+                <p class="h3 my-5">The best homemade pastries, cookies, & other baked goods.</p>
+            </div>
+
+
+            <button type="button" class="btn btn-outline-secondary btn-dark text-light px-3 mt-5">Order Now</button>
+        </div>
+    </section>
+
+
+    <section class="p-5 mt-3" id="#about-us">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <h1 class="text-center">ABOUT US</h1>
+                <br>
+                <p>Bakery Palace is a modern communal bakery and pastry company, producing honest
+                    and nutritious bread, pastry and food. All bread and pastry are made by hand, from scratch
+                    using home learnt techniques and pure Ghanaian sourced ingredients
+                </p>
+                <br>
+                <p>We aspire to continue serving our customers with unique and tailor- made pastries and other customized food based on their budgets and needs. 
+                    We are collectively concentrating our efforts on learning and developing new recipes which will meet the health needs of our clients, as well as growing and scaling up the company. 
+                    Over the course of the production, we have been challenging every single step. 
+                    In search of a unique experience. Our sweet team has been sharing and discussing the tastes and knowledge with our quality-demanding food experts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-dark p-5 text-light" id="pastries">
+        <div class="container">
+            <h1 class="text-center pb-5">SHOP BY CATEGORIES</h1>
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card">
+                        <img src="bread.jpg" class="img-fluid" alt="">
+                        <div class="card-body text-center">
+                            <h4 class="card-title text-dark">Wheat Bread</h4>
+                            <p class="text-dark">GHc 7</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md">
+                    <div class="card">
+                        <img src="cookie.jpg" class="img-fluid" alt="">
+                        <div class="card-body text-center">
+                            <h4 class="card-title t text-dark">Cookies</h4>
+                            <p class="text-dark">GHc 5</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md">
+                    <div class="card">
+                        <img src="cupcake.jpg" class="img-fluid" alt="">
+                        <div class="card-body text-center">
+                            <h4 class="card- text-dark">Cupcake</h4>
+                            <p class="text-dark">GHc 4</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="bg-light p-5">
+        <div class="container">
+            <h1 class="text-center mb-3">FEATURED PRODUCT OF THE MONTH</h1>
+            <div class="d-sm-flex align-items-center justify-content-between ">
+                <div class="p-3">
+                    <img src="danishes.jpg" class="img-fluid" alt="" style="height: 500px;">
+                </div>
+
+                <div class="text-center">
+                    <h3 class="text-center">Danishes</h3>
+                    <p> A sweet pastry and specialty of Denmark, danishes are a popular breakfast buffet item, 
+                        available in flavours like apple, cherry, chocolate and cheese.</p>
+                    <h3>Price: GHc 10(for a box of 4)</h3>
+                    <button type="button" class="btn btn-dark">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="p-5 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="doughnut (1).jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Doughnut</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="django.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Django</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pavlova.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Pavlova</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-dark text-light p-5" id="contact-us">
+        <div class="container">
+            <h1 class="text-center">CONTACT US</h1>
+            <div class="d-sm-flex align-items-center justify-content-between p-5">
+                <img src="shop2.jpeg" class="img-fluid" alt="" style="width: 700px;">
+
+                <div class="px-4 text-center"> 
+                    <h2 class="text-center">Opening & Closing Hours</h2>
+                    <hr>
+                    <p class="h3">ABC Street, Legon</p>
+                    <p>Weekdays: 7:00 AM / 7:00PM</p>
+                    <p>Weekends: 8:00AM / 5:00PM</p>
+                    <p>Phone: +233 209457833</p>
+                    <p>Email: <a><i class="bi bi-envelope"></i> bakerpalace@gmail.com</a></p>
+                    <a href="#"><i class="bi bi-instagram text-light mx-1"></i></a>
+                    <a href="#"><i class="bi bi-twitter text-light mx-1"></i></a>
+                    <a href="#"><i class="bi bi-facebook text-light mx-1"></i></a> <br>
+                    <hr>
+                    <button type="button" class="btn btn-light btn-block">Get Directions</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <h1 class="fst-italic text-center p-5">RECENT REVIEWS</h1>
+                <hr>
+                <div class="col-md-4">
+                    <figure>
+                        <blockquote class="blockquote">
+                          <p>Great place to chill, get away, eat some good food. there was quick, helpful, and friendly service. 
+                              Feels similar to a cafe in Chicago I loved.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                          Kwesi Rodriguez</figcaption>
+                      </figure>
+                </div>
+
+                <div class="col-md-4">
+                    <figure>
+                        <blockquote class="blockquote">
+                          <p>I can say this place does it for me. 
+                              Service is consistently above par. Bring your appetite because portions are large.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                          Kweku Frimpong</figcaption>
+                      </figure>
+                </div>
+
+                <div class="col-md-4">
+                    <figure>
+                        <blockquote class="blockquote">
+                          <p>My favorite place for THE BEST almond croissant 
+                              and chocolate almond croissant in SF!!! Def worth the wait!</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                          Akoto Da Silva</figcaption>
+                      </figure>
+                </div>
+            </div>
+            <h3 class="text-center p-5">Follow Us On Instagram @ BAKERY_PALACE</h3>
+        </div>
+    </section>
+
+
+    <section class="bg-dark text-light p-5" id="services">
+        <div class="container">
+            <h1 class="text-center">OUR SERVICES</h1>
+            <div class="d-sm-flex align-items-center justify-content-between">
+
+                <div class="col-md-6 ms-auto align-self-center p-3">
+                    <h3>What we offer</h3>
+                    <ul>
+                        <li class=>Wedding Ceremonies</li>
+                        <li>Birthday Parties</li>
+                        <li>Graduations</li>
+                        <li>Corporate Events</li>
+                        <li>Private Gatherings</li>
+                      </ul>
+                </div>
+                <div class="col-md-6 ms-auto align-self-center p-3">
+                    <h3>Why choose us</h3>
+                    <ul>
+                        <li>We provide healthy meals to meet our clients’ expectations</li>
+                        <li>We provide Bespoke catering solutions tailored to meet clients’ needs and budget</li>
+                        <li>We take time to plan and give an accurate budget estimation in order to avoid waste and over spending</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">FREQUENTLY ASKED QUESTIONS</h2>
+
+            <div class="accordion accordion-flush" id="questions">
+
+                 <!--Question 1-->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Is Delivery Free?
+                    </button>
+                  </h2>
+                  <div id="question-one" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="questions">
+                    <div class="accordion-body">Yes. Delivery is absolutely free.</div>
+                  </div>
+                </div>
+
+                 <!--Question 2-->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Do you deliver to any part Accra?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#qestions">
+                    <div class="accordion-body">Yes. We do deliver to any part of Accra.</div>
+                  </div>
+                </div>
+
+                 <!--Question 3-->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Is there only one branch nationwide?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">No. We also have a branch located in Kumasi.</div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+
+    <section class="bg-dark text-light p-5" id="footer">
+        <div class="container">
+            <div class="d-md-flex align-items-center justify-content-between">
+                <h2 class="mb-3 md-md-0">The Bakery Palace</h2>
+                <p>Subscribe! Get the latest promotions and 10% off for your next purchase.</p>
+
+                <div class="input-group recipe-btn">
+                    <input type="text" class="form-control" placeholder="Enter e-mail address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                  </div>
+            </div>
+
+            <hr>
+        </div>
+    </section>
+
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2022 Bakery Palace. All right reserved.</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>   
+            </a>
+        </div>
+    </footer>
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+</body>
+</html>
